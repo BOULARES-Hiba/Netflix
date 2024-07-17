@@ -6,7 +6,7 @@
 body{
    font-family :"Roboto", sans-serif;
    background: #000;
-   padding-bottom: 2500px;
+   
 }
 img{
    width: 100%
@@ -197,6 +197,7 @@ color: #fff;
    margin-top: 2rem;
    border-collapse: collapse;
    border-spacing: 0;
+   margin-bottom: 3rem;
 }
 .table tbody tr td {
 	color: #999;
@@ -227,4 +228,31 @@ color: #fff;
 
 .text-dark {
 	color: #999;
+}
+ul{
+   list-style: none;
+}
+.footer{
+   max-width: 70%;
+	margin: 1rem auto;
+	overflow: auto;
+}
+.footer-calls{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-gap: 4rem;
+ 
+}
+li{
+   line-height: 1.6em;
+}
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+}
+
+.footer p {
+	margin-bottom: 1.3rem;
+   color:#999;
 }
