@@ -105,3 +105,53 @@ h1,p,a{
 .rounded {
 	border-radius: 5px;
 }
+.tabs{
+   background-color: #141414;
+   padding-top: 1rem;
+	border-bottom: 3px solid #3d3d3d;
+	border-right: none;
+   color: #3d3d3d;
+}
+.container{
+   max-width: 80%;
+   margin: auto;
+   overflow: hidden;
+}
+.tabs .container {
+padding: 0 6rem;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: center;
+justify-content: center;
+
+}
+.tab{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap :0.4rem;
+  
+}
+#item{
+   font-size: 2rem; 
+   margin-bottom: 3px;
+}
+
+.tab p{
+   font-size: 1.2rem;
+   padding-top:0.5rem ;
+ 
+}
+.tabs .container > div {
+	padding: 1rem 0;
+   cursor: pointer;
+   transition: color 0.15s;
+}
+.tabs .container > div:hover {
+color: #fff;
+}
+.tab-border{
+   border-bottom: 3px solid #e50914;
+}
+
