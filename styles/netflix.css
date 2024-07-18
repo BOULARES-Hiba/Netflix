@@ -149,6 +149,14 @@ justify-content: center;
    cursor: pointer;
    transition: color 0.15s;
 }
+.tab-content-item {
+   display: none; 
+}
+
+.show {
+   display: block !important; 
+}
+
 .tabs .container > div:hover {
 color: #fff;
 }
